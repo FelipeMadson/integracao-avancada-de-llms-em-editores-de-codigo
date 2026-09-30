@@ -1,0 +1,15 @@
+{
+  "slug": "integracao-avancada-de-llms-em-editores-de-codigo",
+  "auditedAt": "2026-09-30T20:44:30.870Z",
+  "score": 100,
+  "checks": {
+    "automatedTestsPassed": true,
+    "testCount": 20,
+    "readmePresent": true,
+    "ciPipelineConfigured": true,
+    "containerizationReady": false,
+    "architectureDocsPresent": true,
+    "authorAttribution": "Felipe Madison (@FelipeMadson)"
+  },
+  "readinessStatus": "PRODUCTION_READY"
+}
