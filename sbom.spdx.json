@@ -1,0 +1,46 @@
+{
+  "spdxVersion": "SPDX-2.3",
+  "dataLicense": "CC0-1.0",
+  "SPDXID": "SPDXRef-DOCUMENT",
+  "name": "Integração Avançada de LLMs em Editores de Código SBOM",
+  "documentNamespace": "https://github.com/FelipeMadson/integracao-avancada-de-llms-em-editores-de-codigo/spdxdocs/integracao-avancada-de-llms-em-editores-de-codigo-1.0.0-6bd1a184-6b9d-4668-9dc2-9c7d9f06596b",
+  "creationInfo": {
+    "created": "2026-09-30T20:44:30.535Z",
+    "creators": [
+      "Person: Felipe Madison (@FelipeMadson)",
+      "Organization: Autonomous Portfolio Engine — Staff Engineering Grade",
+      "Tool: SecurityCiGenerator-1.0.0"
+    ],
+    "licenseListVersion": "3.21"
+  },
+  "packages": [
+    {
+      "name": "integracao-avancada-de-llms-em-editores-de-codigo",
+      "SPDXID": "SPDXRef-Package-integracao-avancada-de-llms-em-editores-de-codigo",
+      "versionInfo": "1.0.0",
+      "packageFileName": "integracao-avancada-de-llms-em-editores-de-codigo-1.0.0.tar.gz",
+      "packageSupplier": "Person: Felipe Madison (https://github.com/FelipeMadson)",
+      "originator": "Person: Felipe Madison (https://github.com/FelipeMadson)",
+      "downloadLocation": "git+https://github.com/FelipeMadson/integracao-avancada-de-llms-em-editores-de-codigo.git@v1.0.0",
+      "filesAnalyzed": false,
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "8cb6d05648303ca1c13918ed71b925a50dee3c5b3e09edba2950b12faf845e41"
+        }
+      ],
+      "homepage": "https://github.com/FelipeMadson/integracao-avancada-de-llms-em-editores-de-codigo",
+      "concludedLicense": "MIT",
+      "declaredLicense": "MIT",
+      "copyrightText": "Copyright (c) 2026 Felipe Madison (@FelipeMadson)",
+      "description": "Enterprise-grade production release for Integração Avançada de LLMs em Editores de Código, engineered by Felipe Madison."
+    }
+  ],
+  "relationships": [
+    {
+      "spdxElementId": "SPDXRef-DOCUMENT",
+      "relatedSpdxElement": "SPDXRef-Package-integracao-avancada-de-llms-em-editores-de-codigo",
+      "relationshipType": "DESCRIBES"
+    }
+  ]
+}
