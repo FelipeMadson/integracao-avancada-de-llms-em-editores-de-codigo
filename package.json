@@ -1,0 +1,31 @@
+{
+  "name": "integracao-avancada-de-llms-em-editores-de-codigo",
+  "version": "1.0.0",
+  "description": "Desenvolver uma extensão VSCode que integre LLMs para suporte ao desenvolvimento de código",
+  "type": "module",
+  "main": "src/index.ts",
+  "bin": {
+    "integracao-avancada-de-llms-em-editores-de-codigo": "src/cli/cli.ts"
+  },
+  "scripts": {
+    "start": "node --experimental-strip-types src/index.ts",
+    "cli": "node --experimental-strip-types src/cli/cli.ts",
+    "test": "node --experimental-strip-types --test tests/**/*.test.ts",
+    "build": "tsc --noEmit"
+  },
+  "keywords": [
+    "enterprise",
+    "clean-architecture",
+    "local-first",
+    "typescript",
+    "tsi",
+    "zero-dependency",
+    "integracao-avancada-de-llms-em-editores-de-codigo"
+  ],
+  "author": "Felipe Madison (@FelipeMadson)",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^22.10.2",
+    "typescript": "^5.7.2"
+  }
+}
